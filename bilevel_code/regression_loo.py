@@ -11,7 +11,7 @@ import random
 from backbone import Regression_meta, Regression
 from utils import pprint, set_gpu, ensure_path, Averager, Timer
 
-for run_time in range(1,10):
+for run_time in range(10):
     if __name__ == '__main__':
         parser = argparse.ArgumentParser()
         parser.add_argument('--max-epoch', type=int, default=200)
