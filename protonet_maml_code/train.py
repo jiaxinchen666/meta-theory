@@ -16,9 +16,7 @@ from methods.protonet import ProtoNet
 from methods.maml_regression import MAML as ReMaml
 from methods.maml import MAML
 from io_utils import model_dict, parse_args, get_resume_file
-'''model = torch.load(
-            './CloserLookFewShot/checkpoints/regression/ReMaml_re_maml_' + str(1000) + '_5shot/trlog')
-print(len(model['train_loss']))'''
+
 
 def train(traindata, valdata, model, optimization, start_epoch, stop_epoch, params):
     if optimization == 'Adam':
