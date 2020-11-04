@@ -1,8 +1,6 @@
 from . import meta_template
-from . import baselinetrain
-from . import baselinefinetune 
-from . import matchingnet
 from . import protonet
-from . import relationnet
 from . import maml
+from . import maml_regression_loo
+from . import maml_regression
 
